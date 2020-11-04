@@ -1,0 +1,74 @@
+.Box1 {
+    border: 2px solid black;
+    padding: 20px;
+    background-color: aqua;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 100px;
+}
+
+#special {
+    border: 10px solid red;
+}
+
+.text {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: smaller;
+    background-color: brown;
+    border: 2px solid black;
+}
+
+.title {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+    background-color: aqua;
+    border: saddlebrown solid 3px;
+}
+
+.box {
+    background-color: white;
+    height: 1030px;
+    width: 800px;
+}
+
+#box1 {
+    width: 300px;
+    height: 300px;
+    border: 2px solid darkblue;
+}
+
+#box2 {
+    width: 300px;
+    height: 200px;
+    border: 2px solid darkcyan;
+    margin-top: 30px;
+}
+
+#box3 {
+    width: 400px;
+    height: 180px;
+    border: 2px solid brown;
+    float: right;
+    margin-top: -538px;
+    margin-right: 50px;
+}
+
+#box4 {
+    width: 400px;
+    height: 120px;
+    border: 2px yellow solid;
+    float: right;
+    margin-top: -338px;
+    margin-right: 50px;
+}
+
+#box5 {
+    width: 400px;
+    height: 200px;
+    border: 2px solid peru;
+    float: right;
+    margin-right: 50px;
+    margin-top: -200px;
+}

@@ -1,0 +1,53 @@
+.container {
+    background-color: wheat;
+    width: 650px;
+}
+
+.form-group {
+    width: 610px;
+    height: 57px;
+    color: grey;
+    font: 18px;
+    margin-bottom: 3px;
+}
+
+#name {
+    width: 600px;
+    background-color: rgb(93, 85, 151);
+    height: 30px;
+    border-radius: 4px;
+    border: solid black 1px;
+}
+
+#surname {
+    width: 600px;
+    background-color: rgb(93, 85, 151);
+    height: 30px;
+    border-radius: 4px;
+    border: solid black 1px;
+}
+
+#email {
+    width: 600px;
+    background-color: rgb(93, 85, 151);
+    height: 30px;
+    border-radius: 4px;
+    border: solid black 1px;
+}
+
+#pass {
+    width: 600px;
+    background-color: rgb(93, 85, 151);
+    height: 30px;
+    border-radius: 4px;
+    border: solid black 1px;
+}
+
+#submit {
+    width: 608px;
+    background-color: greenyellow;
+    height: 30px;
+    border-radius: 4px;
+    border: solid black 1px;
+    text-align: center;
+}

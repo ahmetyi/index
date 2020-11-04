@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Stein Am Rhein</title>
+    <link rel="stylesheet" href="sar.css">
+    <script src="sar.js"></script>
+
+</head>
+
+<body>
+
+    <h1>Stein am Rhein</h1>
+    <div id="navbar">
+        <ul>
+            <li>
+                <a href="#">Entdecken&Erleben</a>
+                <ul class="hidden">
+                    <li> <a href="#">Shopping</a> </li>
+                    <li> <a href="#">Aktivitäten</a></li>
+                    <li> <a href="#">Sehenswürdigkeiten</a> </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Veranstaltungen</a>
+                <ul class="hidden1">
+                    <li><a href="#">Theater</a></li>
+                    <li><a href="#">Opern</a></li>
+                    <li> <a href="#">Konzert</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Kulinarik&Übernachten</a>
+                <ul class="hidden2">
+                    <li> <a href="#">Hotel</a></li>
+                    <li><a href="#">Ferien Wohnung</a></li>
+                    <li><a href="#">Camping</a></li>
+                    <li><a href="#">Restaurant&Catering</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Kontak&Informationen</a>
+                <ul class="hidden3">
+                    <li><a href="#">Tourismus Büro</a> </li>
+                    <li><a href="#">Prospekte</a></li>
+                    <li><a href="#">Team</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <br><br><br><br><br>
+    <div>
+        <div id="bild1">
+            <img src="bild1.jpg">
+        </div>
+        <div id=bild2>
+            <img src="bild2.webp">
+        </div>
+    </div>
+    <br><br>
+    <div id="about">
+        <h1>ÜBER STEIN AM RHEIN</h1>
+
+        <div id=box1>
+            <h1><button id="infobtn" type="button" onclick="myFunction1()">INFORMATION</button></h1>
+            <p id="p1">Der Ort wird erst 1267 erstmals als Stadt urkundlich erwähnt. Grund- und Marktherr der Stadt war damals das Kloster St. Georgen. Durch den Abt wurde zur Verwaltung der niederen Gerichtsbarkeit ein Schultheiss ernannt, zu dem sich ein Stadtrat
+                entwickelte. Die Reichsvogtei, das heisst die hohe Gerichtsbarkeit und das Mannschaftsrecht, gehörte zuerst den Herzögen von Zähringen, dann den Kastvögten des Klosters St. Georgen, den Freiherren von Hohenklingen, schliesslich der Familie
+                Klingenberg.
+            </p>
+        </div>
+        <div id=box2>
+            <h1><button id="gesbtn" type="button" onclick="myFunction2()">GESCHICHTE</button></h1>
+            <p id="p2">Stein am Rhein (im Ortsdialekt Staa, früher latinisiert Lithopolis oder Gaunodurum) ist eine politische Gemeinde im sogenannten oberen Kantonsteil des Schweizer Kantons Schaffhausen. Stein am Rhein ist vor allem wegen des gut erhaltenen Altstadtkerns
+                bekannt und deswegen touristisch sehr beliebt.Die Stadt liegt grösstenteils nördlich beziehungsweise am rechten Ufer des Hochrheins auf etwa 413 m ü. M., wo der Rhein seinen Auslauf aus dem Bodensee nimmt. Als einzige Gemeinde des Kantons
+                Schaffhausen verfügt Stein am Rhein über einen Zugang zum Bodensee und mi.</p>
+        </div>
+
+        <div id="btn"> <button><a target=_blank href="https://de.wikipedia.org/wiki/Stein_am_Rhein">MEHR INFORMATION</a></button></div>
+    </div>
+    <div id="anmeldebtn">
+        <p><button type="button" onclick="myFunction()">ANMELDUNG FÜR DIE RESERVATION</button></p>
+    </div>
+    <div id="container">
+        <form>
+            <div class="form-group">
+                <label for="name" id="name-label">Name</label><br>
+                <input type="text" name="name" id="name" placeholder="Enter your name" required="">
+            </div>
+            <div class="form-group">
+                <label for="surname" id="surname-label">Surname</label><br>
+                <input type="text" name="Surname" id="surname" placeholder="Enter your surname" required="">
+            </div>
+            <div class="form-group">
+                <label for="mail" id="email-label">Email</label><br>
+                <input name="mail" type="email" id="email" placeholder="Enter your mail" required="">
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label><br>
+                <input name="password" type="password" required="" id="pass" placeholder="Enter your password">
+            </div>
+
+            <div class="form-group">
+                <input type="button" value="Submit" id="submit">
+            </div>
+
+        </form>
+
+    </div>
+
+
+
+
+</body>
+
+</html>
