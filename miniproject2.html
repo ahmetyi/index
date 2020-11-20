@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+</html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+
+
+    <title>Js Mini Project1 </title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+        
+        #container {
+            background-color: bisque;
+            margin: auto;
+            text-align: center;
+            width: 350px;
+            height: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Number Guessing Game</h1>
+    <div id="container">
+        <p>Guess a Number between 0-100</p>
+        <input type="text" placeholder="please click play game"><button id="btn" onclick="guess()">Play Game</button>
+    </div>
+    <script>
+        function guess() {
+            var randomNum = Math.floor(Math.random() * 101);
+            console.log(randomNum);
+            var guessNum;
+            guessNum = prompt("Please enter a number between 0 and 100");
+            console.log("random sayi:" + randomNum);
+            console.log("your guest:" + guessNum);
+
+
+            if (randomNum < guessNum) {
+                window.alert("your guess is high");
+            } else if (randomNum > guessNum) {
+                window.alert("your guess is low");
+            } else if (guessNum == randomNum) {
+                window.alert("Congratulation!!!")
+            } else {
+                window.alert("error");
+            }
+        }
+    </script>
+
+
+
+
+
+
+
+</body>
